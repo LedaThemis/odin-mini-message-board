@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1 id="page-title">Messageboard</h1>
+  <h2>Messages</h2>
+  <div id="messages-container">
+    <% messages.forEach((message)=> { %>
+      <div class="message">
+        <div class="message-top">
+          <p class="message-user">
+            <%= message.user %>
+          </p>
+          <p class="message-date">
+            (<%= message.added.toLocaleString() %>)
+          </p>
+        </div>
+        <p class="message-text">
+          <%= message.text %>
+        </p>
+      </div>
+      <% }) %>
+  </div>
+</body>
+
 </html>
