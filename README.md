@@ -1,4 +1,4 @@
-# [Odin | Basic Informational Site](https://odin-basic-informational-site.ledathemis.repl.co)
+# [Odin | Mini Message Board](https://salty-coast-97855.herokuapp.com/)
 
 Technologies used:
 
