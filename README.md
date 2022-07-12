@@ -1,4 +1,4 @@
-# [Odin | Mini Message Board](https://salty-coast-97855.herokuapp.com/)
+# [Odin | Mini Message Board](https://leda-mini-message-board.herokuapp.com/)
 
 Technologies used:
 
